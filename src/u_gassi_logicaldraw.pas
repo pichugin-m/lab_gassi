@@ -5,7 +5,7 @@ unit u_gassi_logicaldraw;
 //    Модуль компонента Graphic Assi Control
 //    Copyright (c) 2013  Pichugin M.
 //    ver. 0.5
-//    Разработчик: Pichugin M. (e-mail: pichugin_m@mail.ru)
+//    Разработчик: Pichugin M. (e-mail: pichugin-swd@mail.ru)
 //
 //************************************************************
 

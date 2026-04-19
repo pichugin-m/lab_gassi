@@ -7,12 +7,13 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, u_form_main, u_gassi_const, u_gassi_drawcontrol,
-  u_gassi_logicaldraw, u_gassi_visualobjects, u_gassi_geometry;
+  Forms, u_form_main, u_gassi_const, u_gassi_drawcontrol, u_gassi_logicaldraw,
+  u_gassi_visualobjects, u_gassi_geometry, u_drawconnectionsschem_function;
 
 {$R *.res}
 
 begin
+  Application.Scaled:=True;
   Application.Title:='gassic';
   RequireDerivedFormResource := True;
   Application.Initialize;

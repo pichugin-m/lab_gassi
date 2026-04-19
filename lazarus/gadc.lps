@@ -2,17 +2,15 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="27">
+    <Units Count="35">
       <Unit0>
         <Filename Value="gadc.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="gadc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="13" Y="11"/>
-        <UsageCount Value="162"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="105" Y="3"/>
+        <UsageCount Value="237"/>
       </Unit0>
       <Unit1>
         <Filename Value="u_form_main.pas"/>
@@ -20,322 +18,363 @@
         <ComponentName Value="FgassicMain"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="u_form_main"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="271"/>
-        <CursorPos X="23" Y="260"/>
-        <UsageCount Value="162"/>
+        <TopLine Value="736"/>
+        <CursorPos X="16" Y="867"/>
+        <UsageCount Value="237"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="..\src\u_gassi_const.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="u_gassi_const"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="26" Y="6"/>
-        <UsageCount Value="53"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="25"/>
+        <CursorPos X="25" Y="30"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="u_gassi_drawcontrol"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="16" Y="7"/>
-        <UsageCount Value="53"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="22" Y="9"/>
+        <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\src\u_gassi_logicaldraw.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="u_gassi_logicaldraw"/>
-        <EditorIndex Value="2"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="135"/>
-        <CursorPos X="30" Y="24"/>
-        <UsageCount Value="53"/>
-        <Loaded Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="64" Y="140"/>
+        <UsageCount Value="200"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\src\u_gassi_visualobjects.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="u_gassi_visualobjects"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="3045"/>
-        <CursorPos X="19" Y="19"/>
-        <UsageCount Value="53"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="20" Y="16"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <WindowIndex Value="-1"/>
+          <TopLine Value="3605"/>
+          <CursorPos X="30" Y="3622"/>
+        </ExtraEditor1>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="..\src\u_gassi_geometry.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="u_gassi_geometry"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
         <CursorPos X="26" Y="7"/>
-        <UsageCount Value="52"/>
+        <UsageCount Value="200"/>
       </Unit6>
       <Unit7>
-        <Filename Value="..\..\..\..\General\u_geometry_functions.pas"/>
-        <UnitName Value="u_geometry_functions"/>
-        <UsageCount Value="19"/>
+        <Filename Value="..\src\u_gassi_dxf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="26" Y="44"/>
+        <UsageCount Value="200"/>
       </Unit7>
       <Unit8>
-        <Filename Value="..\gassi\u_gassi_const.pas"/>
-        <UnitName Value="u_gassi_const"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="127"/>
+        <Filename Value="u_drawconnectionsschem_function.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="229"/>
+        <CursorPos X="16" Y="239"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
       </Unit8>
       <Unit9>
-        <Filename Value="..\gassi\u_gassi_drawcontrol.pas"/>
-        <UnitName Value="u_gassi_drawcontrol"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="23" Y="20"/>
-        <UsageCount Value="127"/>
+        <Filename Value="..\src\u_dxffile.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="956"/>
+        <CursorPos X="20" Y="981"/>
+        <UsageCount Value="45"/>
       </Unit9>
       <Unit10>
-        <Filename Value="..\gassi\u_gassi_logicaldraw.pas"/>
-        <UnitName Value="u_gassi_logicaldraw"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="45" Y="55"/>
-        <UsageCount Value="127"/>
+        <Filename Value="J:\General\u_geometry_functions.pas"/>
+        <UsageCount Value="2"/>
       </Unit10>
       <Unit11>
-        <Filename Value="..\gassi\u_gassi_visualobjects.pas"/>
-        <UnitName Value="u_gassi_visualobjects"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="91"/>
-        <CursorPos X="15" Y="5"/>
-        <UsageCount Value="127"/>
+        <Filename Value="..\gassi\u_gassi_const.pas"/>
+        <UsageCount Value="110"/>
       </Unit11>
       <Unit12>
-        <Filename Value="..\..\..\General\u_geometry_functions.pas"/>
-        <UnitName Value="u_geometry_functions"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="52" Y="13"/>
-        <UsageCount Value="127"/>
+        <Filename Value="..\gassi\u_gassi_drawcontrol.pas"/>
+        <CursorPos X="23" Y="20"/>
+        <UsageCount Value="110"/>
       </Unit12>
       <Unit13>
-        <Filename Value="..\gassi\u_gassi_listvisualobject.pas"/>
-        <UnitName Value="u_gassi_listvisualobject"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="39" Y="48"/>
-        <UsageCount Value="8"/>
+        <Filename Value="..\gassi\u_gassi_logicaldraw.pas"/>
+        <CursorPos X="45" Y="55"/>
+        <UsageCount Value="110"/>
       </Unit13>
       <Unit14>
-        <Filename Value="C:\Lazarus\lcl\extctrls.pp"/>
-        <UnitName Value="ExtCtrls"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1012"/>
-        <CursorPos X="3" Y="983"/>
-        <UsageCount Value="55"/>
+        <Filename Value="..\gassi\u_gassi_visualobjects.pas"/>
+        <TopLine Value="91"/>
+        <CursorPos X="15" Y="5"/>
+        <UsageCount Value="110"/>
       </Unit14>
       <Unit15>
-        <Filename Value="C:\Lazarus\lcl\controls.pp"/>
-        <UnitName Value="Controls"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="2844"/>
-        <CursorPos X="39" Y="2854"/>
-        <UsageCount Value="55"/>
+        <Filename Value="..\..\..\General\u_geometry_functions.pas"/>
+        <CursorPos X="52" Y="13"/>
+        <UsageCount Value="110"/>
       </Unit15>
       <Unit16>
-        <Filename Value="C:\Lazarus\fpc\2.6.0\source\rtl\objpas\classes\classesh.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="104"/>
-        <CursorPos X="40" Y="122"/>
-        <UsageCount Value="55"/>
+        <Filename Value="..\gassi\u_gassi_listvisualobject.pas"/>
+        <CursorPos X="39" Y="48"/>
+        <UsageCount Value="1"/>
       </Unit16>
       <Unit17>
-        <Filename Value="C:\Lazarus\fpc\2.6.0\source\rtl\win\wininc\struct.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="209"/>
-        <CursorPos X="6" Y="226"/>
-        <UsageCount Value="57"/>
+        <Filename Value="C:\Lazarus\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <TopLine Value="1012"/>
+        <CursorPos X="3" Y="983"/>
+        <UsageCount Value="38"/>
       </Unit17>
       <Unit18>
-        <Filename Value="C:\Lazarus\lcl\lcltype.pp"/>
-        <UnitName Value="LCLType"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="3053"/>
-        <CursorPos X="32" Y="3080"/>
-        <UsageCount Value="55"/>
+        <Filename Value="C:\Lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="2844"/>
+        <CursorPos X="39" Y="2854"/>
+        <UsageCount Value="38"/>
       </Unit18>
       <Unit19>
-        <Filename Value="C:\Lazarus\lcl\lclclasses.pp"/>
-        <UnitName Value="LCLClasses"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="3" Y="38"/>
-        <UsageCount Value="55"/>
+        <Filename Value="C:\Lazarus\fpc\2.6.0\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="104"/>
+        <CursorPos X="40" Y="122"/>
+        <UsageCount Value="38"/>
       </Unit19>
       <Unit20>
-        <Filename Value="C:\Lazarus\lcl\graphics.pp"/>
-        <UnitName Value="Graphics"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="688"/>
-        <CursorPos X="25" Y="704"/>
-        <UsageCount Value="53"/>
+        <Filename Value="C:\Lazarus\fpc\2.6.0\source\rtl\win\wininc\struct.inc"/>
+        <TopLine Value="209"/>
+        <CursorPos X="6" Y="226"/>
+        <UsageCount Value="40"/>
       </Unit20>
       <Unit21>
-        <Filename Value="C:\Lazarus\fpc\2.6.0\source\packages\fcl-image\src\fpcanvas.pp"/>
-        <UnitName Value="FPCanvas"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="123"/>
-        <CursorPos X="54" Y="146"/>
-        <UsageCount Value="53"/>
+        <Filename Value="C:\Lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <TopLine Value="3053"/>
+        <CursorPos X="32" Y="3080"/>
+        <UsageCount Value="38"/>
       </Unit21>
       <Unit22>
-        <Filename Value="C:\Lazarus\lcl\include\control.inc"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="2701"/>
-        <CursorPos X="27" Y="2712"/>
-        <UsageCount Value="31"/>
+        <Filename Value="C:\Lazarus\lcl\lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <CursorPos X="3" Y="38"/>
+        <UsageCount Value="38"/>
       </Unit22>
       <Unit23>
-        <Filename Value="..\..\general\u_general_functions.pas"/>
-        <UnitName Value="u_general_functions"/>
-        <UsageCount Value="18"/>
+        <Filename Value="C:\Lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="688"/>
+        <CursorPos X="25" Y="704"/>
+        <UsageCount Value="36"/>
       </Unit23>
       <Unit24>
-        <Filename Value="C:\Lazarus11\lcl\graphics.pp"/>
-        <UnitName Value="Graphics"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="134"/>
-        <CursorPos X="16" Y="153"/>
-        <UsageCount Value="15"/>
+        <Filename Value="C:\Lazarus\fpc\2.6.0\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <TopLine Value="123"/>
+        <CursorPos X="54" Y="146"/>
+        <UsageCount Value="36"/>
       </Unit24>
       <Unit25>
-        <Filename Value="H:\Lazarus11\lcl\extctrls.pp"/>
-        <UnitName Value="ExtCtrls"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="396"/>
-        <CursorPos X="17" Y="415"/>
-        <UsageCount Value="10"/>
+        <Filename Value="C:\Lazarus\lcl\include\control.inc"/>
+        <TopLine Value="2701"/>
+        <CursorPos X="27" Y="2712"/>
+        <UsageCount Value="14"/>
       </Unit25>
       <Unit26>
+        <Filename Value="..\..\general\u_general_functions.pas"/>
+        <UsageCount Value="1"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="H:\Lazarus11\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <TopLine Value="396"/>
+        <CursorPos X="17" Y="415"/>
+        <UsageCount Value="3"/>
+      </Unit27>
+      <Unit28>
         <Filename Value="C:\Lazarus11\fpc\2.7.1\source\packages\fcl-base\src\contnrs.pp"/>
-        <UnitName Value="contnrs"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="61"/>
         <CursorPos X="24" Y="82"/>
-        <UsageCount Value="11"/>
-      </Unit26>
+        <UsageCount Value="4"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="C:\Lazarus16\fpc\3.0.0\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="97"/>
+        <CursorPos X="10" Y="110"/>
+        <UsageCount Value="7"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\src\u_gassi_import_dxf.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="26"/>
+        <UsageCount Value="67"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="C:\Lazarus16\fpc\3.0.0\source\rtl\inc\ustringh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="118"/>
+        <CursorPos X="10" Y="131"/>
+        <UsageCount Value="4"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="C:\lazarus20_x32\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1568"/>
+        <CursorPos X="14" Y="1750"/>
+        <UsageCount Value="5"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="C:\lazarus20_x32\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="543"/>
+        <CursorPos X="41" Y="556"/>
+        <UsageCount Value="9"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="C:\lazarus20_x32\fpc\3.2.0\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="91"/>
+        <CursorPos X="30" Y="107"/>
+        <UsageCount Value="9"/>
+      </Unit34>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="0"/>
-    </General>
-    <JumpHistory Count="25" HistoryIndex="24">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="3" Column="1" TopLine="1"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3943" Column="34" TopLine="3929"/>
       </Position1>
       <Position2>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="340" Column="19" TopLine="330"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="702" Column="35" TopLine="685"/>
       </Position2>
       <Position3>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="430" Column="25" TopLine="412"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3836" Column="42" TopLine="3835"/>
       </Position3>
       <Position4>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="335" Column="20" TopLine="314"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="702" Column="70" TopLine="685"/>
       </Position4>
       <Position5>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="335" Column="20" TopLine="314"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="1703" Column="21" TopLine="1677"/>
       </Position5>
       <Position6>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="328" Column="21" TopLine="315"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="1689" Column="18" TopLine="1686"/>
       </Position6>
       <Position7>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="431" Column="12" TopLine="418"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="636" Column="56" TopLine="632"/>
       </Position7>
       <Position8>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="426" Column="35" TopLine="355"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="653" Column="26" TopLine="647"/>
       </Position8>
       <Position9>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1032" Column="20" TopLine="1013"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3055" Column="23" TopLine="3038"/>
       </Position9>
       <Position10>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1665" Column="19" TopLine="1644"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="626" Column="17" TopLine="610"/>
       </Position10>
       <Position11>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="221" Column="28" TopLine="200"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="669" Column="22" TopLine="654"/>
       </Position11>
       <Position12>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1061" Column="46" TopLine="1036"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3894" Column="25" TopLine="3894"/>
       </Position12>
       <Position13>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="338" Column="33" TopLine="310"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="636" Column="56" TopLine="619"/>
       </Position13>
       <Position14>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1607" Column="44" TopLine="1585"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="477" Column="25" TopLine="454"/>
       </Position14>
       <Position15>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="951" Column="43" TopLine="935"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3449" Column="26" TopLine="3435"/>
       </Position15>
       <Position16>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="427" Column="34" TopLine="417"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="653" Column="26" TopLine="641"/>
       </Position16>
       <Position17>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="428" Column="34" TopLine="418"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3901" Column="35" TopLine="3897"/>
       </Position17>
       <Position18>
         <Filename Value="u_form_main.pas"/>
-        <Caret Line="429" Column="34" TopLine="419"/>
+        <Caret Line="835" Column="54" TopLine="826"/>
       </Position18>
       <Position19>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="428" Column="34" TopLine="418"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="3913" Column="28" TopLine="3896"/>
       </Position19>
       <Position20>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="429" Column="34" TopLine="419"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="524" Column="21" TopLine="502"/>
       </Position20>
       <Position21>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="162" Column="60" TopLine="150"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="1877" Column="32" TopLine="1862"/>
       </Position21>
       <Position22>
-        <Filename Value="u_form_main.pas"/>
-        <Caret Line="291" Column="46" TopLine="281"/>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="640" Column="20" TopLine="627"/>
       </Position22>
       <Position23>
         <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1070" Column="38" TopLine="1060"/>
+        <Caret Line="1515" Column="34" TopLine="1506"/>
       </Position23>
       <Position24>
-        <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1077" Column="42" TopLine="1069"/>
+        <Filename Value="u_form_main.pas"/>
+        <Caret Line="589" Column="35" TopLine="556"/>
       </Position24>
       <Position25>
         <Filename Value="..\src\u_gassi_drawcontrol.pas"/>
-        <Caret Line="1079" Column="42" TopLine="1070"/>
+        <Caret Line="519" Column="31" TopLine="500"/>
       </Position25>
+      <Position26>
+        <Filename Value="u_form_main.pas"/>
+        <Caret Line="589" Column="35" TopLine="556"/>
+      </Position26>
+      <Position27>
+        <Filename Value="u_form_main.pas"/>
+        <Caret Line="590" Column="35" TopLine="570"/>
+      </Position27>
+      <Position28>
+        <Filename Value="u_form_main.pas"/>
+        <Caret Line="320" Column="18" TopLine="316"/>
+      </Position28>
+      <Position29>
+        <Filename Value="u_form_main.pas"/>
+        <Caret Line="860" Column="39" TopLine="858"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\src\u_gassi_visualobjects.pas"/>
+        <Caret Line="1880" TopLine="1869"/>
+      </Position30>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
-  <EditorMacros Count="0"/>
 </CONFIG>

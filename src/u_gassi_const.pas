@@ -5,7 +5,7 @@ unit u_gassi_const;
 //    Модуль компонента Graphic Assi Control
 //    Copyright (c) 2013  Pichugin M.
 //
-//    Разработчик: Pichugin M. (e-mail: pichugin_m@mail.ru)
+//    Разработчик: Pichugin M. (e-mail: pichugin-swd@mail.ru)
 //
 //************************************************************
 
@@ -84,8 +84,9 @@ TPointUnit = (puDefault,puYoctometre,puZeptometre,puAttometre,
     puYottametre);
 
 const
-   BLOCKLIST_ID='BLOCKLISTID';
-   ENTITYLIST_ID='';
+   BLOCKLIST_ID    ='BLOCKLISTID';
+   ENTITYLIST_ID   ='';
+   GADEFAULT_FONTNAME ='Arial';
 
 implementation
 

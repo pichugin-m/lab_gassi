@@ -27,7 +27,7 @@ function PointInRect2D(PointX,PointY,TopLeftX,TopLeftY,
 function Length3DPointAB(X1,Y1,Z1,X2,Y2,Z2: Double): Double;
 function Length2DPointAB(X1,Y1,X2,Y2: Double): Double;
 //Поиск точки пересечения линий
-function isLinesHasIntersection(X1,Y1,X2,Y2,X3,Y3,X4,Y4: Double): Boolean;
+function isLinesHasIntersection(AX1,AY1,AX2,AY2,BX3,BY3,BX4,BY4: Double): Boolean;
 
 function isEqual2DPoint(A1,A2:TFloatPoint):Boolean;
 function isEqual3DPoint(A1,A2:TFloatPoint):Boolean;
@@ -76,19 +76,19 @@ begin
   Result:=sqrt(math.Power((X2-X1),2)+math.Power((Y2-Y1),2)+math.Power((Z2-Z1),2));
 end;
 
-function isLinesHasIntersection(X1,Y1,X2,Y2,X3,Y3,X4,Y4: Double): Boolean;
+function isLinesHasIntersection(AX1,AY1,AX2,AY2,BX3,BY3,BX4,BY4: Double): Boolean;
 var
   denominator:Double;
   ua,ub: Double;
 begin
-  denominator := ((y4-y3)*(x2-x1)-(x4-x3)*(y2-y1));
+  denominator := ((By4-By3)*(Ax2-Ax1)-(Bx4-Bx3)*(Ay2-Ay1));
   if(denominator = 0) then
 		  // прямые паралельны
 		  // Если и числитель и знаменатель равны нулю, то прямые совпадают.
 		  Result:=false
   else begin
-      ua:=((x4-x3)*(y1-y3)-(y4-y3)*(x1-x3))/((y4-y3)*(x2-x1)-(x4-x3)*(y2-y1));
-      ub:=((x2-x1)*(y1-y3)-(y2-y1)*(x1-x3))/((y4-y3)*(x2-x1)-(x4-x3)*(y2-y1));
+      ua:=((Bx4-Bx3)*(Ay1-By3)-(By4-By3)*(Ax1-Bx3))/((By4-By3)*(Ax2-Ax1)-(Bx4-Bx3)*(Ay2-Ay1));
+      ub:=((Ax2-Ax1)*(Ay1-By3)-(Ay2-Ay1)*(Ax1-Bx3))/((By4-By3)*(Ax2-Ax1)-(Bx4-Bx3)*(Ay2-Ay1));
 
       Result:=true;
 		  // Если u12 и u34 на промежутке [0,1], значит отрезки имеют точку пересечения
